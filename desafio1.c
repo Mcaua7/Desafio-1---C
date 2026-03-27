@@ -7,7 +7,7 @@ void mostrarArmarios(unsigned char armario){
     
     printf("Armarios disponiveis:\n");
     printf("7 6 5 4 3 2 1 0\n");
-    printf("------------------------\n");h
+    printf("------------------------\n");
     
     for(int i = 7; i >= 0; i--){
         printf("%d ", (armario >> i)&1);
